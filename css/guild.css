@@ -1,0 +1,51 @@
+#guildnews-items li, #guildnews-achievements li{
+	margin-bottom: 1em;
+}
+
+#guildnews-items a, #guildnews-achievements a{
+	display: inline;
+}
+
+#guildroster li{
+	margin-bottom: 1em;
+}
+
+.focal{
+	color:#ffb100 !important;
+}
+
+.item-quality-8{
+	color: #00ccff !important;
+}
+
+.item-quality-7{
+	color: #e6cc80 !important;
+}
+
+.item-quality-6{
+	color: #e6cc80 !important;
+}
+
+.item-quality-5 {
+	color:#ff8000 !important;
+}
+
+.item-quality-4 {
+	color:#a335ee !important;
+}
+
+.item-quality-3{
+	color:#0070dd !important;
+}
+
+.item-quality-2{
+	color: #1eff00 !important;
+}
+
+.item-quality-1{
+	color: #ffffff !important;
+}
+
+.item-quality-0{
+	color: #9d9d9d !important;
+}

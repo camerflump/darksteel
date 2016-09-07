@@ -1,0 +1,137 @@
+.navfix {
+   /* position: fixed;
+    */top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999;
+}
+
+.custom-wrapper {
+    background-color: rgba(30,30,30,1);
+    -webkit-font-smoothing: antialiased;
+    height: 3em;
+    overflow: hidden;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    transition: height 0.5s;
+}
+
+.custom-wrapper.open {
+   height: 12.4em;
+
+}
+
+.branding{
+    float: left;
+    height: 3em;
+    margin-bottom: -3em;
+    padding: 1em;
+}
+
+.custom-menu {
+    float: none;
+    width: auto;
+    text-align: right;
+}
+
+.custom-menu ul {
+    margin-top: 3em;
+    list-style-type: none;
+}
+
+.custom-menu ul li a {
+    padding: 1em;
+}
+
+.custom-menu ul li a:hover {
+    background-color: rgba(50,50,50,1);
+/*    color: rgba(40,40,40,1);
+*/    cursor: pointer;
+}
+
+.menu-horizontal {
+}
+
+.menu-horizontal ul {
+    margin-top: 0em !important;
+    overflow: hidden;
+    float: right !important;
+}
+.menu-horizontal ul li {
+    float: left !important;
+    display: inline;
+    overflow: hidden;
+}
+.menu-horizontal ul li a:hover{
+    color: rgba(245,245,245,1) !important;
+    background-color: rgba(0,0,0,0) !important;
+    text-decoration: underline;
+}
+
+.custom-toggle {
+    width: 3em;
+    height: 3em;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.custom-toggle .bar {
+    background-color: rgba(245,245,245,1);
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 100px;
+    position: absolute;
+    top: 1.7em;
+    right: 0.9em;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.custom-toggle .bar:first-child {
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+}
+
+.custom-toggle.x .bar {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.custom-toggle.x .bar:first-child {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 47.999em), only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    .custom-wrapper {
+        background-color: rgba(30,30,30,1);
+    }
+
+    .custom-menu {
+        text-align: left;
+    }
+
+    .custom-toggle {
+        display: block;
+    }
+
+    .menu-horizontal {
+        margin-top: 3em;
+        float: none !important;
+    }
+
+}

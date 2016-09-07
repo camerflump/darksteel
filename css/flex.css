@@ -1,0 +1,35 @@
+#flexbox {
+	display: -ms-flexbox;
+	-ms-flex-wrap: wrap;
+	-ms-flex-direction: column;
+	-webkit-flex-flow: row wrap; 
+	flex-flow: row wrap; 
+	display: -webkit-box;
+	display: flex;
+}
+
+#flexbox div { 
+	-webkit-box-flex: auto;
+	-ms-flex: auto;
+	flex: auto; 
+	width: 200px; 
+	margin: 1em; 
+}
+
+#flexbox div img { 
+	width: 100%; 
+	height: auto;
+}
+
+@media (max-width: 47.999em) {
+
+    #flexbox {
+    	padding: 0;
+    	background-color: rgba(0,0,0,0) !important;
+    }
+
+    #flexbox div {
+    	margin: 1em;
+    }
+
+}

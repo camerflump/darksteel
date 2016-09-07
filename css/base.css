@@ -1,0 +1,57 @@
+html {
+	height: 100%;
+	overflow:hidden;
+}
+
+*, *:before, *:after { 
+	font-family: "Lucida Console", Lucida, monospace ; 
+	padding: 0px;
+	margin: 0px; 
+	display: block; 
+	text-decoration: none; 
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+			
+*:focus { 
+outline: none; 
+}
+			
+head, title, link, meta, style, script { 
+display: none; 
+}
+
+input, input:active {
+-webkit-appearance: none; 
+box-shadow: none !important; 
+border: none !important;
+}
+
+:-webkit-autofill { 
+color: #fff !important; 
+}
+			
+body { 
+	overflow: hidden;
+	height: 100%;
+	background-color: rgba(120,120,120,1);
+}
+			
+a {
+text-decoration: none; 
+color: rgba(245,245,245,1);
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.bgimage {
+	z-index: -999;
+	position: fixed;
+	width: 100%;
+	height: 60em;
+	background-image:url("../media/backgroundtest.jpg");
+	background-size: cover;
+}

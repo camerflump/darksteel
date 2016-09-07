@@ -1,0 +1,15 @@
+body {
+}
+
+footer{
+    z-index: 999;
+	height: 1.2em;
+	bottom: 0px;
+	right: 0px;
+	position: fixed;
+/*	width: 100%;
+*/	text-align: left;
+	background-color: rgba(245,245,245,1);
+	color: rgba(30,30,30,1);
+	padding: 0.1em 0.4em 0.1em 0.4em;
+}	

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html data-ember-extension="1"><head>
+
+		<!-- css -->
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/nav.css">
+		<link rel="stylesheet" href="css/foot.css">
+		<link rel="stylesheet" href="css/block.css">
+		<link rel="stylesheet" href="css/button.css">
+		<link rel="stylesheet" href="css/flex.css">
+		<link rel="stylesheet" href="css/guild.css">
+
+		<!-- fonts -->
+
+		<!-- meta -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+		<title class="guildname"></title>
+
+		<!-- style -->
+		<style>
+
+		</style>
+
+	</head>
+
+	<body>
+		<!--
+			<div class="bgimage"></div>
+		-->
+
+		<div class="navfix">
+			<div class="custom-wrapper" id="menu">
+				<div class="">
+					<div class="">
+						<a href="#" class="branding guildname" onclick="blockSwap(pos0)">
+						</a>
+						<a href="#" class="custom-toggle" id="toggle">
+							<s class="bar">
+
+							</s>
+							<s class="bar">
+
+							</s>
+						</a>
+					</div>
+				</div>
+				<div class="">
+					<div class="custom-menu menu-can-transform menu-horizontal">
+						<ul class="">
+							<li class="">
+								<a href="#" class="" onclick="blockSwap(pos1)">
+									news
+								</a>
+							</li>
+							<li class="">
+								<a href="#" class="" onclick="blockSwap(pos2)">
+									roster
+								</a>
+							</li>
+							<!--
+							<li class="">
+								<a href="#" class="" onclick="blockSwap(pos2)">
+									gallery
+								</a>
+							</li>
+							-->
+							<li class="">
+								<a href="#" class="" onclick="blockSwap(pos3)">
+									contact
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="block" id="block">
+			<div class="content" id="home" name="home">
+				<div class="landingtext">
+					<h1 class="guildname">
+					</h1>
+					<h2 class="guildrealm">
+					</h2>
+				</div>
+			</div>
+
+			<div class="content" id="news" name="news">
+				<div class="inner">
+					<h2>
+						NEWS
+					</h2>
+					<h3>
+						Achievements
+					</h3>
+					<ul id="guildnews-achievements">
+					</ul>
+					<h3>
+						Items
+					</h3>
+					<ul id="guildnews-items">
+					</ul>
+				</div>
+			</div>
+
+			<div class="content" id="roster" name="roster">
+				<div class="inner">
+					<h2>
+						ROSTER
+					</h2>
+					<ul id="guildroster">
+					</ul>
+				</div>
+			</div>
+<!--
+			<div class="content" id="gallery" name="gallery">
+				<div class="inner" id="flexbox">
+
+					<div><img src="0.jpg" alt=""></div>
+					<div><img src="1.jpg" alt=""></div>
+					<div><img src="2.jpg" alt=""></div>
+					<div><img src="3.jpg" alt=""></div>
+					<div><img src="4.jpg" alt=""></div>
+
+				</div>
+			</div>
+-->
+			<div class="content" id="contact" name="contact">
+				<div class="inner-contact">
+					<h2>
+						CONTACT
+					</h2>
+					<form name="contactform" method="POST" action="php/mail.php">
+						<label for="name">Name</label>
+						<input type="text" name="name" maxlength="50" size="30" placeholder="character name">
+						<label for="realm">Realm</label>
+						<input type="text" name="realm" maxlength="80" size="30" placeholder="your realm">
+						<label for="message">Message</label>
+						<textarea name="message" maxlength="1000" cols="25" rows="6" placeholder="your message"></textarea>
+						<input type="submit" value="Submit" id="break">
+					</form>
+				</div>
+			</div>
+		</div>
+
+	<!-- scripts -->
+	<script src="js/pagescript.js"></script>
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/guild.js"></script>
+
+	</body>
+<!--
+	<footer>
+		&copy; Cameron Guthrie, 2016
+	</footer>
+-->
+	<script type="text/javascript">
+
+
+	</script>
+
+</html>

@@ -1,0 +1,77 @@
+.block {
+	left: 0px;
+	width: 400%;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+}
+
+.ease {
+	-webkit-transition: all 500ms ease 0s;
+    -moz-transition: all 500ms ease 0s;
+    -o-transition: all 500ms ease 0s;
+    transition: all 500ms ease 0s;
+}
+
+.content {
+	color: rgba(245,245,245,1);
+    float: left;
+	padding: 1em;
+	width: 25%;
+	display: inline;
+
+	max-height: 100%;
+
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+.landingtext {
+	font-size: 1.2em;
+	margin: auto;
+	padding: 3em 1em 1em 1em;
+	text-align: center;
+}
+
+.landingtext h1,h2,h3,h4 {
+	margin-bottom: 1em;
+}
+
+.inner {
+	background-color: rgba(30,30,30,1);
+	padding: 1em;
+
+	margin-bottom: 5em;
+}
+
+.inner h1,h2,h3,h4,p,hr{
+	margin-bottom: 1em;
+}
+
+.bump li {
+	margin-bottom: 1em;
+}
+
+.inner-contact{
+	max-width: 600px;
+	background-color: rgba(30,30,30,1);
+	padding: 1em;
+	margin: 0 auto;
+}
+
+.inner-contact input{
+	width: 100%;
+	margin-bottom: 1em;
+	padding: 1em;
+}
+
+.inner-contact label {
+	margin-bottom: 1em;
+}
+
+.inner-contact  textarea {
+	width: 100%;
+	resize:vertical;
+	margin-bottom: 2em;
+	padding: 1em;
+}
